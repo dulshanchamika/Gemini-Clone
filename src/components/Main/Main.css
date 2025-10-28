@@ -218,5 +218,14 @@
     margin: 0;
   }
 
+    .search-box {
+    justify-content: flex-start; /* remove space-between */
+    gap: 10px; /* tighter spacing */
+  }
+
+  .search-box div {
+    margin-left: auto; /* push icons to right neatly */
+  }
+  
 }
 
